@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+code {
+    font-family: Consolas, monospace;
+}
+
+/* Improve readability of pre elements */
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Style for code snippets */
+.code {
+    display: none; /* Hide by default */
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Main content styling */
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Heading section styling */
+.headings {
+    margin-bottom: 40px;
+}
+
+/* Individual code example styling */
+.code-example {
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.code-example:hover {
+    color: #007bff;
+}
